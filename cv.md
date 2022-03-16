@@ -1,4 +1,4 @@
-# 1.Habibullina Kritina
+# 1.Habibullina Kristina
 
 
 ******
