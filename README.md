@@ -1,1 +1,1 @@
-https://sinevit.github.io/rsschool-cv/index
+https://sinevit.github.io/rsschool-cv/
