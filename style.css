@@ -135,3 +135,11 @@ footer{
 .footer__logo-image {
     height: 60px;
 }
+
+.footer-social{
+    display: flex;
+}
+
+.footer-social h3{
+    color:white;
+}
