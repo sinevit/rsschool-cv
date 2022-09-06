@@ -6,7 +6,7 @@
 
 ## 2.Contact
 * Email  : patrakovakris@gmail.com
-* Dicord : kriss(@sinevit)
+* Dicord : Kristina(@sinevit)
 
 
 ******
