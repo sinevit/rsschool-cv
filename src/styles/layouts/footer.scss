@@ -1,0 +1,41 @@
+footer{
+    background-color:$color-brand;
+}
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+
+    h3{
+        margin: 0;
+    }
+}
+
+
+.footer__logo-image {
+    width: 90px;
+}
+
+.footer__social{
+    font-style: normal;
+    font-weight: 600;
+    @include font(2rem, 2.8rem, 600);
+    font-style: normal;
+    @include media-laptop{
+        @include font(1.6rem, 2rem, 400);  
+    }
+
+    a{
+        text-decoration: none;
+        color: $color-light;
+        @extend %transition;
+
+        &:hover{
+            color: black;
+        }
+
+    }
+
+}

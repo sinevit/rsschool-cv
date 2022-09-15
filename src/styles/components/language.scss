@@ -1,0 +1,19 @@
+.language__list{
+    padding: 2rem;
+    p{
+        text-align: justify;
+    }
+
+    span{
+        color: $color-brand;
+        @include font(2rem, 2.8rem, 600);
+        font-style: normal;
+        text-transform: uppercase;
+        @include media-tablet{
+            @include font(1.6rem, 2rem, 400);  
+        }
+    }
+    @include media-laptop{
+        @include font(1.6rem, 2rem, 400);  
+    }
+}

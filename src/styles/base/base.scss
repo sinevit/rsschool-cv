@@ -1,0 +1,77 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import "../abstract/constant.scss";
+
+@font-face {
+    font-family: 'KronaOne';
+    src: url('../asset/fonts/KronaOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Krona One', sans-serif;
+    font-style: normal;
+}
+
+h1{
+    margin: 10px;
+    @include font(4.4rem, 5.4rem, 800);
+    color: $color-brand;
+    @include media-laptop{
+        @include font(3.8rem, 4.4rem, 800);  
+    }
+    @include media-tablet{
+        @include font(3rem, 4rem, 800);  
+    }
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    @include font(2.8rem, 4.6rem, 800);
+    @include media-laptop{
+        @include font(2.2rem, 3.4rem, 800);  
+    }
+    @include media-tablet{
+        @include font(2rem, 3rem, 800);  
+    }
+    color: $color-additional;
+}
+h3{
+    @include font(2.4rem, 3.4rem, 600);
+    font-style: normal;
+    @include media-laptop{
+        @include font(2.2rem, 3.4rem, 600);  
+    }
+}
+
+h4{
+    @include font(2.2rem, 3rem, 600);
+    font-style: normal;
+    @include media-laptop{
+        margin: 0;
+        @include font(2rem, 3rem, 600);  
+    }
+    @include media-tablet{
+        @include font(1.8rem, 2.4rem, 600);  
+    }
+}
+
+p{
+    @include font(1.6rem, 2.4rem, 500);
+    font-style: normal;
+    letter-spacing: 0.5px;
+
+    @include media-tablet{
+        @include font(1.4rem, 2rem, 500);  
+    }
+}

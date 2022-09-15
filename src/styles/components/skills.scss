@@ -1,0 +1,35 @@
+.skills__list{
+    padding: 2rem 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    @include font(2rem, 2.8rem, 500);
+    font-style: normal;
+
+    @include media-laptop{
+        @include font(1.6rem, 2rem, 400);  
+    }
+    @include media-tablet{
+        padding: 2rem 0;
+    }
+    .skill__item{
+        list-style: none;
+        padding: 0 20px;
+        border-radius: 12px;
+        position: relative;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+        i{
+            padding: 0 15px;
+            color: $color-brand;
+
+            @include media-tablet{
+                padding: 0 2px;
+            }
+        }
+
+    }
+}

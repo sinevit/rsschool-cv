@@ -1,0 +1,42 @@
+.code__text{
+    .code__link{
+        text-decoration: none;
+        color: $color-brand;
+        @extend %transition;
+
+        &:hover{
+            color: $color-additional;
+            font-weight: bold;
+        }
+    }
+
+    @include media-tablet{
+        padding: 0 1rem;
+    }
+}
+
+.code__pre{
+    background-color: $color-code-bg;
+    color: $color-light;
+    padding: 0 1rem;
+    overflow: auto;
+
+    .blue{
+        color: $color-code-blue;
+    }
+    .lightblue{
+        color: $color-code-lightblue;
+    }
+    .yellow{
+        color: $color-code-yellow;
+    }
+    .darkyellow{
+        color: $color-code-darkyellow;
+    }
+    .violet{
+        color: $color-code-violet;
+    }
+    .orange{
+        color: $color-additional;
+    }
+}
