@@ -11,6 +11,7 @@ import momentum from './asset/images/momentum.jpg'
 import github from './asset/images/github.png'
 import rsschool from './asset/images/rs-logo.svg'
 import coffehouse from './asset/images/coffehouse.jpg'
+import zoo from './asset/images/online-zoo.jpg'
 
 
 
